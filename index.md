@@ -23,6 +23,7 @@ In order to follow instructions presented here, you need following skills:
 2. Basic understanding on machine learning methods
 3. Basic understanding on molecular biology
 
+For general introduction to the drug response prediction, please refer to [Awesome Drug Response Prediction](https://github.com/briankimstudio/awesome-drug-response-prediction).
 
 ### Dependencies
 

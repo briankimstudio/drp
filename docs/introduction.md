@@ -20,3 +20,4 @@ The results is trained machine learning model. It take patient's gene informatio
 
 ## Discussion
 
+There are several challneges in drug response prediction research. 
