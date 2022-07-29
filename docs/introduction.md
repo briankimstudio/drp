@@ -12,7 +12,7 @@ To identify effective anti-cancer drugs for patients by examining each patient's
 
 ## Research methods
 
-Drug response dataset contains gene level information such as gene expression and the results of drug response (sensitive/registant). For example, the drug 1 is effective for the sample 1's gene expression, but, not effective for sample 2's gene expression. We train machine learning model with this information. In other words, we can tell the association between gene level information and drug's effectiveness. Once we figure that out, we would compare patient's gene level information with the dataset to determine whether the given drugs would helpful for the given patient or not.
+Drug response dataset contains gene level information such as gene expression and the results of drug response (sensitive/registant). For example, the drug 1 is effective for the patient 1's gene expression, but, not effective for patient 2's gene expression. We train machine learning model with this information. In other words, machine learning model learns the association between gene level information and drug's effectiveness. Once the model finished traning, it compare news patient's gene level information with the dataset to predict whether the given drug would helpful for the new patient or not.
 
 As explained above, drug response prediction is a problem of binary classification. Therefore, among machine learning models, any binary classifier can be applied for this research.
 
