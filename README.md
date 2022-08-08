@@ -1,1 +1,1 @@
-![DRP](https://briankimstudio.github.io/drp/)
+[DRP](https://briankimstudio.github.io/drp/)
