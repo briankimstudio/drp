@@ -10,7 +10,11 @@ Comparing genes from sensitive and resistant group reveals which genes looks mor
 
 These selected genes are called 'differentially expressed(DE) genes'. And they are feed into the machine learning model to train. 
 
+First, apply t-test to get p-values of all features, then use FDR to filter out relatively less different genes. Finally, apply B/W ratio to get final set of genes.
+
 - t-test
 - FDR
+- B/W
+
 - Principal component analysis(PCA)
 
