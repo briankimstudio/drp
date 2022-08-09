@@ -16,5 +16,13 @@ First, apply t-test to get p-values of all features, then use FDR to filter out 
 - FDR
 - B/W
 
+t-test and FDR
+![t-test](/drp/assets/images/t-test_fdr.png)
+
+BW
+![bw](/drp/assets/images/bw.png)
+
+
+
 - Principal component analysis(PCA)
 
