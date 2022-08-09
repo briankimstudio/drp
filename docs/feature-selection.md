@@ -22,7 +22,8 @@ t-test and FDR
 BW
 ![bw](/drp/assets/images/bw.png)
 
-
+Domain adaptation
+![da](/drp/assets/images/da.png)
 
 - Principal component analysis(PCA)
 
