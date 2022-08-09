@@ -19,7 +19,7 @@ First, apply t-test to get p-values of all features, then use FDR to filter out 
 t-test and FDR
 ![t-test](/drp/assets/images/t-test_fdr.png)
 
-BW
+B/W
 ![bw](/drp/assets/images/bw.png)
 
 Domain adaptation
