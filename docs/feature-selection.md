@@ -4,13 +4,13 @@ title: Feature selection
 nav_order: 3
 ---
 
-In drug response prediction dataset, row indicates samples and column represents genes. Thus, number of features equals the number of genes. Unfortunately, the number of genes easily exceeds 10,000. This high dimensionality of dataset requires feature selection process to reduce dimensionalty. There are several approaches in dimension reduction. 
+In the drug response prediction dataset, the row indicates samples and the column represents genes. Thus, the number of features equals the number of genes. Unfortunately, the number of genes easily exceeds 10,000. This high dimensionality of the dataset requires a feature selection process to reduce dimensionality. There are several approaches to dimension reduction. 
 
-Comparing genes from sensitive and resistant group reveals which genes looks more different than others. Then, only highly different genes are selected for further analysis.
+Comparing genes from sensitive and resistant groups reveals which genes look more different than others. Then, only highly different genes are selected for further analysis.
 
-These selected genes are called 'differentially expressed(DE) genes'. And they are feed into the machine learning model to train. 
+These selected genes are called 'differentially expressed(DE) genes'. And they are fed into the machine learning model to train. 
 
-First, apply t-test to get p-values of all features, then use FDR to filter out relatively less different genes (Reiner et al., 2003). Finally, apply B/W ratio to get final set of genes (Dudoit et al., 2002).
+First, apply a t-test to get p-values of all features, then use FDR to filter out relatively less different genes (Reiner et al., 2003). Finally, apply the BW ratio to get the final set of genes (Dudoit et al., 2002).
 
 - t-test
 - FDR

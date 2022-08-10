@@ -4,7 +4,7 @@ title: Data
 nav_order: 2
 ---
 
-There are several public database where we can download drug response results. 
+There are several public databases where we can download drug response results. 
 
 ### Database for preclinical data
 
