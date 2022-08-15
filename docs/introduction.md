@@ -10,6 +10,8 @@ Drug response prediction is a research area where gene level information is exam
 
 To identify effective anti-cancer drugs for patients by examining each patient's unique gene level information using machine learning algorithms.
 
+![Dataset](/drp/assets/images/purpose.png)
+
 ## Research methods
 
 The drug response dataset contains gene level information such as gene expression and the results of drug response (sensitive/resistant). For example, drug 1 is effective for patient 1's gene expression, but, not effective for patient 2's gene expression. 
