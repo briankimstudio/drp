@@ -6,6 +6,8 @@ nav_order: 3
 
 In the drug response prediction dataset, the row indicates samples and the column represents genes. Thus, the number of features equals the number of genes. Unfortunately, the number of genes easily exceeds 10,000. This high dimensionality of the dataset requires a feature selection process to reduce dimensionality. There are several approaches to dimension reduction. 
 
+### Differentially expressed genes
+
 Comparing genes from sensitive and resistant groups reveals which genes look more different than others. Then, only highly different genes are selected for further analysis.
 
 These selected genes are called 'differentially expressed(DE) genes'. And they are fed into the machine learning model to train. 
