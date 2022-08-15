@@ -27,10 +27,10 @@ After training the machine learning model, it can perform the following tasks.
 1. predict drug's effectiveness
 2. find biomarkers(relevant genes) related to the effectiveness
 
-## Discussion
+## Challenges
 
 There are several challenges in drug response prediction research.
 
 1. Scarcity of clinical data to train and predict precise results
 3. High dimensionality of the training and testing dataset
-3. Necessary of multi drugs treatments
+3. Necessity of multi drugs treatments
