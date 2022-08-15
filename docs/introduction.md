@@ -4,8 +4,6 @@ title: Introduction
 nav_order: 1
 ---
 
-Drug response prediction is a research area where gene level information is examined to predict the effectiveness of a given anti-cancer drug.
-
 ## Purpose
 
 To identify effective anti-cancer drugs for patients by examining each patient's unique gene level information using machine learning algorithms.
