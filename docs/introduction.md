@@ -12,18 +12,25 @@ To identify effective anti-cancer drugs for patients by examining each patient's
 
 ## Research methods
 
-The drug response dataset contains gene level information such as gene expression and the results of drug response (sensitive/resistant). For example, drug 1 is effective for patient 1's gene expression, but, not effective for patient 2's gene expression. 
+The drug response dataset contains gene level information such as gene expression and the result of drug response (sensitive/resistant). For example, drug 1 is effective for patient 1's gene expression, but it is not effective for patient 2's gene expression. 
 
 ![Dataset](/drp/assets/images/dataset.png)
 
-We train a machine learning model with this information. In other words, the machine learning model learns the association between gene-level information and a drug's effectiveness. Once the model finished training, it compares the new patient's gene level information with the dataset to predict whether the given drug would helpful for the new patient or not.
+We train a machine learning model with this information from cell lines, animal models, or clinical data. In other words, the machine learning model learns the association between gene level characteristics and a drug's effectiveness. Once the model has finished training, it takes a new patient's gene-level information as input and then predicts whether the given drug would be helpful for the new patient or not.
 
-As explained above, drug response prediction is a problem of binary classification. Therefore, among machine learning models, any binary classifier can be applied for this research.
+As explained above, drug response prediction is a problem of binary classification. Therefore, among various models of machine learning, any binary classifier can be applied for this research.
 
 ## Results
 
-After training the machine learning model, it takes the patient's gene information as an input, then, predicts whether the drug is effective or not for this patient.
+After training the machine learning model, it can perform the following tasks.
+
+1. predict drug's effectiveness
+2. find biomarkers(relevant genes) related to the effectiveness
 
 ## Discussion
 
-There are several challeges in drug response prediction research. 
+There are several challenges in drug response prediction research.
+
+1. Scarcity of clinical data to train and predict precise results
+3. High dimensionality of the training and testing dataset
+3. Necessary of multi drugs treatments
