@@ -19,13 +19,13 @@ First, apply a t-test to get p-values of all features, then use FDR to filter ou
 - B/W
 
 t-test and FDR 
-![t-test](/drp/assets/images/t-test_fdr.png)
+![t-test](/drp/assets/images/t-test_fdr1.png)
 
 BW ratio 
 ![bw](/drp/assets/images/bw.png)
 
 Domain adaptation (Mourragui et al., 2019)
-![da](/drp/assets/images/da.png)
+![da](/drp/assets/images/da1.png)
 
 - Principal component analysis(PCA)
 
